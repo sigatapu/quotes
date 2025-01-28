@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: azure;
+}
+
+.quote {
+  color: white;
+  background-color: rgb(33, 177, 216);
+  height: auto; /* Adjust height dynamically based on content */
+  width: 300px; /* Slightly wider for better readability */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Increased padding for better spacing */
+  margin: 15px; /* More space between quotes */
+  /* border: 2px solid #4CAF50; Updated to a softer green for a modern look */
+  border-radius: 12px; /* More rounded corners */
+  gap: 15px; /* Better spacing between elements */
+  /* background-color: #f9f9f9; Light background to enhance text contrast */
+  box-shadow: 0 4px 8px rgba(33, 33, 33, 0.877); /* Subtle shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+.quote:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.quote p {
+  font-size: 1.1rem; /* Increased font size for readability */
+ /* Darker text color for better contrast */
+  text-align: center; /* Center-align the text */
+  line-height: 1.5; /* Improve text spacing */
+}
+
+.quote span {
+  font-size: 0.9rem; /* Smaller font size for quote source (if any) */
+  color: #555; /* Softer color for less emphasis */
+}
+
+h3{
+  text-align: center;
+ 
+}
+.bg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
